@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="123dp"
+            android:layout_height="96dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="My profile"
+            android:textColor="@color/darkblue"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Your Info"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:ems="10"
+            android:hint="Chathumi Gunathunga"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:ems="10"
+            android:hint="chathumiisurika02@gmail.com"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress7"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:ems="10"
+            android:hint="0716064250"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:ems="10"
+            android:hint="Galle"
+            android:inputType="text"
+            android:textColorHint="@color/black" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="55dp"
+            android:backgroundTint="@color/darkblue"
+            android:text="LOGOUT"
+            android:textSize="34sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingTop="90dp">
+
+            <ImageView
+                android:id="@+id/Home_btn"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/home" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/saved" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/set1" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/proooo1" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
